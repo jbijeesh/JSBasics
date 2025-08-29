@@ -6,5 +6,8 @@ console.log(full_name);
 console.log(full_name[2]);
 console.log(full_name.toUpperCase());
 console.log(full_name.length);
+console.log(full_name.indexOf('B'));
+console.log(full_name.slice(2,8));
+
 
 
