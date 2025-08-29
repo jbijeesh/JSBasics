@@ -1,13 +1,6 @@
-let first_name  = 'Jithu';
-let last_name  = 'Bijeesh';
-let full_name  = first_name + ' ' + last_name;
-
-console.log(full_name);
-console.log(full_name[2]);
-console.log(full_name.toUpperCase());
-console.log(full_name.length);
-console.log(full_name.indexOf('B'));
-console.log(full_name.slice(2,8));
-
-
-
+let radi = 5;
+const pi = 3.14;
+let area  = pi * radi**2;
+console.log(area);
+let curm  = pi * radi * 2;
+console.log(curm);
