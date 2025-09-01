@@ -1,15 +1,19 @@
-// type conversion
-// let score = '100';
+// while loops
+const names = ['shaun', 'mario', 'luigi'];
+let i = 0;
 
-// score = Number(score);
-// console.log(score + 1);
-// console.log(typeof score);
+// while(i < 5){
+//   console.log('loop: ', i);
+//   i++;
+// }
 
-// let result = Number('hello');
-// let result = String(50);
-// let result = Boolean(100);
-// let result = Boolean(0);
-// let result = Boolean('0');
-let result = Boolean('');
+// while(i < names.length){
+//   console.log(names[i]);
+//   i++;
+// }
 
-console.log(result, typeof result);
+i = 8;
+while(i > 5){
+  console.log('loop: ', i);
+  i--;
+}
