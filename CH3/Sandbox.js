@@ -1,17 +1,20 @@
-// break & continue
-const scores = [50, 25, 0, 30, 100, 20, 10];
+// variables & block scope
+let age = 30;
 
-for(let i = 0; i < scores.length; i++){
+if(true){
 
-  if(scores[i] === 0){
-    continue;
-  }
+  // age = 40;
+  let age = 40;
+  let name = 'shaun';
+  console.log('inside 1st code block:', age, name);
 
-  console.log('your score:', scores[i]);
+  if(true){
 
-  if(scores[i] === 100){
-    console.log('congrats, you got the top score!');
-    break;
+    let age = 50;
+    console.log('inside 2nd code block:', age, name);
+
   }
 
 }
+
+console.log('outside code block:', age, name);
